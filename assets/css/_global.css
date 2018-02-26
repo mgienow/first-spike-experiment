@@ -5,7 +5,8 @@ body, p,li, ul, nav, header, footer, h1, h2, h3 {
 }
 a{
   text-decoration: none;
-  color: #F15A24;
+  /* color: #D6925F; */
+  color: #b87333;
 }
 a:hover {
   color: SandyBrown;
