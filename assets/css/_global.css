@@ -15,19 +15,10 @@ h4 {
   color: #282828;
 }
 
-a{
-  text-decoration: none;
-  color: #F15A24;
+li{
+  list-style: none;
 }
 
-a:hover {
-  color: SandyBrown;
-}
-
-h4 {
-  font-weight: 300;
-  color: #282828;
-}
 
 /*  ========= HEADER ======= */
 header {
@@ -94,10 +85,7 @@ header a:hover {
     justify-content: space-around;
     width: 60%;
 }
-/*spacer div necessary to keep dropdown content active on hover while pushing items below gray nav bar */
-.spacer {
-  height: 2em;
-}
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -110,16 +98,18 @@ header a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 5em;
     padding: 0 1em;
 }
 
 /* Links inside the dropdown */
-/* li {
-  margin-top: 3em;
-} */
+li {
+  margin-top: 1em;
+}
+ul {
+  margin-top: 1em;
+}
 .dropdown-content a {
-    color: gray;
+    color: slategray;
     text-decoration: none;
   }
 
