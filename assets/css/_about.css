@@ -1,0 +1,78 @@
+@import '_global';
+
+/* ==== ABOUT THE ARTIST ==== */
+
+#about {
+  width: 80%;
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+#jillPortrait {
+  height: 100%;
+}
+#aboutAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  min-height: 45em;
+}
+h1 {
+  font-family: "Libre-Baskerville", serif;
+  font-size: 1.25em;
+  letter-spacing: 0.4em;
+}
+#aboutText {
+  font-weight: 200;
+  opacity: 0.5;
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: 0.03em;
+  padding: 1em 0;
+}
+
+@media(max-width: 950px){
+#jillWorks img {
+  height: 7.5em;
+  margin-top: 1em;
+}
+
+  #about {
+    width: 90%;
+  }
+}
+@media(min-width: 1262px){
+  #about{
+    width: 60% !important;
+  }
+  #aboutText{
+    font-size: 1.125em;
+  }
+}
+@media(max-width: 720px){
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #aboutAbout {
+    width: 80%;
+  }
+#jillPortrait {
+  width: 35%;
+  margin-bottom: 2em;
+}
+
+#jillWorks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+@media(max-width: 350px){
+  header img {
+    height: 2.5em;
+  }
+}
