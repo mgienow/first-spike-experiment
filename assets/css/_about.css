@@ -2,8 +2,8 @@
 
 /* ==== ABOUT THE ARTIST ==== */
 
-#about {
-  width: 80%;
+#aboutJill {
+  width: 70%;
   margin: 3em auto;
   display: flex;
   justify-content: space-between;
@@ -22,7 +22,7 @@
 }
 h1 {
   font-family: "Libre-Baskerville", serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   letter-spacing: 0.4em;
 }
 #aboutText {
@@ -39,20 +39,17 @@ h1 {
   margin-top: 1em;
 }
 
-  #about {
+  #aboutJill {
     width: 90%;
   }
 }
 @media(min-width: 1262px){
-  #about{
-    width: 60% !important;
-  }
   #aboutText{
     font-size: 1.125em;
   }
 }
 @media(max-width: 720px){
-  #about {
+  #aboutJill {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +70,6 @@ h1 {
 }
 @media(max-width: 350px){
   header img {
-    height: 2.5em;
+    height: 3em;
   }
 }

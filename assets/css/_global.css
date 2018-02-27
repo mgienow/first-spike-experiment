@@ -42,8 +42,9 @@ header a{
 }
 header a:hover {
   font-weight: 700;
-    color: #BEBD8C;
-}
+    /* color: #BEBD8C; */
+    color: #b87333;
+  }
 
 @media(min-width: 1500px){
   header img {
@@ -98,6 +99,7 @@ header a:hover {
     flex-direction: column;
     justify-content: space-around;
     padding: 0 1em;
+
 }
 
 /* Links inside the dropdown */
@@ -114,7 +116,7 @@ ul {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-      color: #D6925F;
+      color: #b87333;
 }
 
 
