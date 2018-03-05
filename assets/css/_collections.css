@@ -1,0 +1,64 @@
+@import '_global';
+
+/* ============= COLLECTIONS ========== */
+
+#collectionsWrapper{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#collectionsTitle {
+  margin: 3em auto;
+  width: 90%;
+  color: #383838;
+}
+#collectionsTitle h1 {
+  font-size: 1.5em !important;
+  margin-bottom: 1em;
+}
+.collections {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.collections img {
+  height: 15em;
+}
+.collectionsText{
+  display: flex;
+  flex-direction: column;
+}
+.collections h2 {
+  font-weight:700;
+  color: #4d4d4d;
+  font-size: 1.25em;
+}
+.collections h3 {
+  color: #F15A24;
+  opacity: .8;
+  font-size: 1em;
+}
+.collections p{
+  color: gray;
+  font-weight: lighter;
+}
+@media(max-width: 1100px){
+  .collections img {
+  height: 12em;
+  } 
+}
+@media(max-width: 900px){
+  .collections img {
+  height: 10em;
+  }
+  #collectionsWrapper {
+    width: 98%;
+  }
+}
+@media(max-width: 750px) {
+  #collectionsWrapper{
+    flex-direction: column;
+  }
+}
