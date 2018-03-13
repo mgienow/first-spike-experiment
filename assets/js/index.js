@@ -1,5 +1,5 @@
 console.log('you can use ES6 here : )')
-(function(){
+// (function(){
 
 var counter = 0, // to keep track of current slide
     items = document.querySelectorAll('.minimalistSlideshow figure'), // a collection of all of the slides, caching for performance
@@ -30,4 +30,4 @@ document.querySelector('.prev').addEventListener('click', function() {
      showCurrent();
   }, false);
 
-})();  
+// })();  
