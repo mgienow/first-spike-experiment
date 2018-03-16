@@ -32,8 +32,14 @@ header {
 
 header img {
   height: 4em;
+  padding-left: 2em;
 }
-
+#logoholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
 header a{
   text-decoration: none;
   color: gray;
@@ -84,6 +90,7 @@ header a:hover {
     display: flex;
     justify-content: space-around;
     width: 60%;
+    margin: 0;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -120,19 +127,32 @@ ul {
 }
 
 
-@media (max-width: 750px){
-.dropdown {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 1em;
-  padding-right: .5em;
+@media (max-width: 849px){
+  #logoholder {
+    width: 100vw;
+    background: black;
+    margin-bottom: 1em;
   }
-.linkFlex:hover .dropdown-content {
-    display: none;
+  #logoholder img{
+    padding: 0;
   }
   header {
-      background: black;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+  }
+.dropdown-content{
+  margin: 0;
+  background: white;
+  }
+}
+.dropdown {
+  width: 80%;
+}
+@media (max-width: 555px){
+  .dropdown{
+    width: 90%;
+    font-size: .9em;
   }
 }
 

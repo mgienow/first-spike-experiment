@@ -63,12 +63,12 @@ figcaption {
     margin-top: 2em;
   }
   .bigFlex img{
-  height: 12.5em !important;
+  height: 12.5em;
   }
 }
-@media (max-width: 800px){
+@media (max-width: 850px){
   .bigFlex img{
-  height: 16.5em;
+  height: 18em;
   }
 }
      /*   DIVIDER LINE  */
