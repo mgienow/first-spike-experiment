@@ -18,6 +18,11 @@
   font-size: 1.5em !important;
   margin-bottom: 1em;
 }
+#furniture, #miniatures {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
 .collections {
   display: flex;
   flex-direction: column;
