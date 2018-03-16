@@ -1,7 +1,18 @@
 @import '_global';
 
 /* ======= CONTACT ========= */
-
+#contactContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 3em auto 0 auto;
+  flex: 1 0 auto;
+}
+@media(max-width:850px){
+  #contactContainer {
+    margin: 0 auto;
+  }
+}
 .signedTitle {
   margin: 2.5em auto;
   width: 90%;
@@ -18,14 +29,6 @@
 }
 .img {
   height: 10em;
-}
-
-#contactContainer {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: 0 auto;
-  flex: 1 0 auto;
 }
 .contact {
   display: flex;
